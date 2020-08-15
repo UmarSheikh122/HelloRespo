@@ -1,9 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('Build') {
+    stage('Stage1') {
       steps {
-        sh 'echo " This is $BUILD_NUMBER of $demo "'
+        echo 'Hello'
       }
     }
 
